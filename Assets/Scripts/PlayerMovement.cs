@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public GameObject playerCamera; // need to be connected to real object in Unity
     private CharacterController controller;
-    private float speed = 15f;
+    private float speed = 30f;
     private float rx = 0f, ry;
     private float angularSpeed = 5f;
     // Start is called before the first frame update
